@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-  
-=======
->>>>>>> 1a428f2e1ba2f6ae7a1cd85197c82fbf50d99d8d
 document.write("<p>金字塔</p>")
 let level = prompt('请设置金字塔的层数')
 level = parseFloat(level)&&Number(level)
