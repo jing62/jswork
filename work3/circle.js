@@ -5,7 +5,7 @@ if (!isNaN(r)){
     var area =  Math.PI * r * r
     document.getElementById('r').value = r
     document.getElementById('cir').value = cir.toFixed(2)
-    document.getElementById('r').value = area.toFixed(2)
+    document.getElementById('area').value = area.toFixed(2)
 }else{
     alert('请输入正确的数字')
 }
