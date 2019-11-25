@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>冯诗静的万年历</title>
-        <link rel="stylesheet" type="text/css" href="index.css">
-    </head>
-    <body>
-        <div class="selyear">
-            <span class="preyear" id="preyear" data-year="" onclick="setCalendar(this.dataset.year)"></span>
-            <span id="curyead"></span>
-            <span class="nextyear" id="nextyear" data-year="" onclick="setCalendar(this.dataset.year)"></span> 
-        <div class="box" id="cal"></div>
-    </body>
-    <script scr="calendar.js"></script>
-    <script scr="index.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>冯诗静的万年历</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="selyear">
+        <span class="preyear" id="preyear" data-year="" onclick="setCalendar(this.dataset.year)"></span>
+        <span id="curyear"></span>
+        <span class="nextyear" id="nextyear" data-year="" onclick="setCalendar(this.dataset.year)"></span> 
+    <div class="box" id="cal"></div>
+</body>
+<script src="calendar.js"></script>
+<script src="index.js"></script>
 </html>
